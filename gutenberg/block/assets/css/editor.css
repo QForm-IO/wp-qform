@@ -1,0 +1,51 @@
+.wp-block-qform-block {
+    background-color: #F6F6F6;
+    padding: 50px;
+}
+
+.wp-block-qform-block .qform-picture {
+    background: url(/wp-content/plugins/qform/assets/img/logo.svg) center no-repeat;
+    width: 125px;
+    height: 31px;
+    max-width: 100%;
+    display: block;
+    transition: 0.3s;
+    background-size: contain;
+    border: none;
+
+}
+.wp-block-qform-block option {
+
+    padding: 20px;
+}
+.wp-block-qform-block button {
+    margin-top: 20px;
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    width: 150px;
+}
+
+#wp-block-qform-block-a {
+    margin-left: 400px;
+    border-color: #2271b1;
+}
+
+#wp-block-qform-block-a a:visited {
+    border-color: #2271b1;
+
+}
+
+#wp-block-qform-block-a a:link {
+    border-color: #2271b1;
+
+}
+
+#wp-block-qform-block-a a:hover {
+    border-color: #2271b1;
+
+}
+
