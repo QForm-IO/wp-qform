@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blank WordPress Pot v1.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2023-08-03 00:23+0300\n"
+"POT-Creation-Date: 2023-09-14 07:39+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -19,12 +19,13 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
-"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 3.3.2\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: admin/class-qform-admin.php:73 public/class-qform-public.php:23
+#: admin/class-qform-admin.php:73 public/class-qform-public.php:34
 msgid "Check qform token!"
 msgstr "Проверьте токен qform !"
 
@@ -32,7 +33,7 @@ msgstr "Проверьте токен qform !"
 msgid "Error validation!"
 msgstr "Ошибка валидации!"
 
-#: admin/class-qform-admin.php:114 admin/templates/short-page-template.php:77
+#: admin/class-qform-admin.php:114 admin/templates/short-page-template.php:84
 msgid "Choose form"
 msgstr "Выберите форму"
 
@@ -64,8 +65,8 @@ msgstr "Настройки"
 msgid "Shortcode menu"
 msgstr "Шорткод меню"
 
-#: admin/class-qform-admin.php:148 admin/templates/short-page-template.php:131
-#: admin/templates/short-page-template.php:144
+#: admin/class-qform-admin.php:148 admin/templates/short-page-template.php:138
+#: admin/templates/short-page-template.php:151
 msgid "Shortcode"
 msgstr "Шорткод формы"
 
@@ -77,28 +78,28 @@ msgstr "Токен авторизации"
 msgid "Enter token"
 msgstr "Введите токен"
 
-#: admin/class-qform-admin.php:242 admin/class-qform-admin.php:250
-#: admin/class-qform-admin.php:304
+#: admin/class-qform-admin.php:240 admin/class-qform-admin.php:248
+#: admin/class-qform-admin.php:302
 msgid "Error!"
 msgstr "Ошибка!"
 
-#: admin/class-qform-admin.php:259
+#: admin/class-qform-admin.php:257
 msgid "Form fields are required"
 msgstr "Поля формы обязательны для заполнения"
 
-#: admin/class-qform-admin.php:281
+#: admin/class-qform-admin.php:279
 msgid "Shortcode added"
 msgstr "Добавлен шорткод"
 
-#: admin/class-qform-admin.php:287
+#: admin/class-qform-admin.php:285
 msgid "Error add shortcode"
 msgstr "Ошибка добавления шорткода"
 
-#: admin/class-qform-admin.php:317
+#: admin/class-qform-admin.php:315
 msgid "Shortcode deleted successfully"
 msgstr "Шорткод успешно удален"
 
-#: admin/class-qform-admin.php:323
+#: admin/class-qform-admin.php:321
 msgid "Shortcode deletion error"
 msgstr "Ошибка удаления шорткода"
 
@@ -112,56 +113,79 @@ msgstr "Отключить токен"
 
 #: admin/templates/main-page-template.php:38
 #: admin/templates/short-page-template.php:10
-msgid ""
-"<p>To evaluate app capability and activation,<br/> discover the token of the "
-"site to which it is linked.<a href=\"https://app.qform.io/\"> Where to get a "
-"token?</a></p>"
-msgstr ""
-"<p>Чтобы завершить процедуру настройки и активации плагина,<br/> укажите "
-"токен сайта, к которому он привязан.<a href=\"https://app.qform.io/\"> Где "
-"взять токен?</a></p>"
+msgid "To evaluate app capability and activation,"
+msgstr "Чтобы завершить процедуру настройки и активации плагина,"
 
-#: admin/templates/main-page-template.php:52
+#: admin/templates/main-page-template.php:40
+#: admin/templates/short-page-template.php:12
+msgid "discover the token of the site to which it is linked."
+msgstr "укажите токен сайта, к которому он привязан."
+
+#: admin/templates/main-page-template.php:42
+#: admin/templates/short-page-template.php:15
+#: admin/templates/short-page-template.php:68
+#: admin/templates/short-page-template.php:69
+msgid "https://app.qform.io/"
+msgstr "https://app.qform.io/"
+
+#: admin/templates/main-page-template.php:43
+#: admin/templates/short-page-template.php:16
+msgid "Where to get a token?"
+msgstr "Где взять токен?"
+
+#: admin/templates/main-page-template.php:56
 msgid "Error token"
 msgstr "Неверный токен"
 
-#: admin/templates/main-page-template.php:56
-#: admin/templates/short-page-template.php:16
+#: admin/templates/main-page-template.php:60
+#: admin/templates/short-page-template.php:21
 msgid "Connect token"
 msgstr "Подключить токен"
 
-#: admin/templates/short-page-template.php:54
+#: admin/templates/short-page-template.php:59
 msgid "Shortcode List Page"
 msgstr "Страница со списком шорткодов"
 
-#: admin/templates/short-page-template.php:61
-msgid ""
-"<p>Add a form in your account <a href=\"https://app.qform.io/\">https://app."
-"qform.io</a></p>"
-msgstr ""
-"<p>Добавьте форму в личном кабинете <a href=\"https://app.qform.io/"
-"\">https://app.qform.io</a></p>"
+#: admin/templates/short-page-template.php:66
+msgid "Add a form in your account"
+msgstr "Добавьте форму в свой аккаунт"
 
-#: admin/templates/short-page-template.php:105
+#: admin/templates/short-page-template.php:112
 msgid "Create shortcode"
 msgstr "Создать шорткод"
 
-#: admin/templates/short-page-template.php:134
-#: admin/templates/short-page-template.php:160
+#: admin/templates/short-page-template.php:141
+#: admin/templates/short-page-template.php:167
 msgid "Actions"
 msgstr "Действия"
 
-#: admin/templates/short-page-template.php:153
+#: admin/templates/short-page-template.php:160
 msgid "Show more details"
 msgstr "Показать"
 
-#: admin/templates/short-page-template.php:207
+#: admin/templates/short-page-template.php:214
 msgid "No entries found"
 msgstr "Записи не найдены"
 
-#: public/class-qform-public.php:34
+#: public/class-qform-public.php:28
 msgid "Shortcode not found!"
 msgstr "Шорткод не найден!"
+
+#~ msgid ""
+#~ "<p>To evaluate app capability and activation,<br/> discover the token of "
+#~ "the site to which it is linked.<a href=\"https://app.qform.io/\"> Where "
+#~ "to get a token?</a></p>"
+#~ msgstr ""
+#~ "<p>Чтобы завершить процедуру настройки и активации плагина,<br/> укажите "
+#~ "токен сайта, к которому он привязан.<a href=\"https://app.qform.io/\"> "
+#~ "Где взять токен?</a></p>"
+
+#~ msgid ""
+#~ "<p>Add a form in your account <a href=\"https://app.qform.io/\">https://"
+#~ "app.qform.io</a></p>"
+#~ msgstr ""
+#~ "<p>Добавьте форму в личном кабинете <a href=\"https://app.qform.io/"
+#~ "\">https://app.qform.io</a></p>"
 
 #~ msgid "Creating forms and quizzes"
 #~ msgstr "Создание форм и квизов"

@@ -92,7 +92,7 @@ class Qform_Admin {
 
 		delete_option( 'qform_main_token' );
 
-		wp_redirect( esc_url( $_POST['_wp_http_referer'] ) );
+		wp_redirect( sanitize_url( $_POST['_wp_http_referer'] ) );
 		exit();
 	}
 
@@ -288,7 +288,7 @@ class Qform_Admin {
 			}
 		}
 
-		wp_redirect( esc_url( $_POST['_wp_http_referer'] ) );
+		wp_redirect( sanitize_url( $_POST['_wp_http_referer'] ) );
 		exit;
 	}
 
@@ -323,7 +323,7 @@ class Qform_Admin {
 			);
 		}
 
-		wp_redirect( esc_url( $_POST['_wp_http_referer'] ) );
+		wp_redirect( sanitize_url( $_POST['_wp_http_referer'] ) );
 		exit;
 	}
 
