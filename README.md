@@ -15,7 +15,8 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 ### == Description == ###
 ````
 Creating complex forms using the https://qform.io service
-Integration with the service through a token
+Integration with the service occurs via a token
+To work, the plugin requires a remote script call to https://cdn.qform.io/forms.js
 ````
 
 ### == Changelog == ###
