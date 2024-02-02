@@ -1,4 +1,4 @@
-=== Qform creating complex forms ===
+=== QForm – free and simple form builder ===
 Contributors: qform
 Donate link: https://app.qform.io/donation/
 Tags: qform, contact form, form builder, create form, custom form, quiz, survey, recaptcha
@@ -22,10 +22,10 @@ The builder gives you the ability to create and customize forms and quizzes. It 
  - A variety of field types: text, numeric, date and time selections, drop-down lists.
  - Customization of fields with the ability to change titles, comments, placeholders and fill masks.
  - Preview to make sure that feedback forms and quizzes are built correctly before placing them on Wordpress, Bitrix, Joomla or any other website.
- - Прикрепление видеовиджетов к форме, каждому шагу квиза, а также после отправки.
- - Разделение на колонки, регулирование ширины и перемещение разделов.
- - Добавление изображений к полям выбора или разделам квиза.
- - Настройку логики переходов между шагами квиза в зависимости от ответов.
+ - Attachment of video widgets to the form, each step of the quiz, as well as after submission.
+ - Division into columns, adjustment of width, and moving of sections.
+ - Adding images to choice fields or quiz sections.
+ - Setting up the logic for transitions between quiz steps depending on the answers.
  - Quick and easy insertion into the site using ready-made code without programming skills.
 
 The forms created with the form builder work on Wordpress and any other sites.
@@ -52,7 +52,7 @@ Qform.link internal service allows you to create and use forms and quizzes witho
 Interaction with Bitrix, Sendpulse, AmoCRM allows you to automatically transfer data to them and generate a transaction card. Integration with SigmaSms and email service allows you to use the collected database of phone numbers and email addresses for mailings.
 
 ### Groups and access control
-Allow you to control and customize participant access to spaces and forms.Group owner and administrators set restrictions for participants based on their role. Они могут быть установлены на уровне просмотра, редактирования, удаления данных. Есть возможность добавлять пользователей и устанавливать роли без привязки к группе, если необходимо открыть доступ временно.
+Allow you to control and customize participant access to spaces and forms.Group owner and administrators set restrictions for participants based on their role. They can be set at the level of viewing, editing, deleting data. There is an option to add users and set roles without tying to a group if temporary access is needed.
 
 ### Notifications
 You can customize the message body and receive it by email, SMS or messengers. It is possible to customize the delivery event: instantly at each new request, or until the request is accepted for processing.
