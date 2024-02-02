@@ -10,101 +10,79 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-## <span id="h.j1r0b4ufzvfv">QForm – конструктор форм обратной связи для WordPress</span>
+# QForm - Free Form Builder for WordPress
 
+A plugin for creating forms, tests and questions created in QForm on WP. Change the structure and design in the service builder, and all changes will be displayed on your Wordpress site.
 
-Плагин для создание на WP форм, тестов и вопросов, созданных в QForm. Меняйте структуру и дизайн в конструкторе сервиса, а все изменения отобразятся на вашем сайте Wordpress.
+Our builder allows you to create interactive forms and surveys and offers quick and easy insertion into your website using ready-made code, no programming skills required. It can be used to easily collect and analyze information, interact with your audience and manage data. The plugin allows you to access and place feedback forms and quizzes created in Qform on Wordpress. It can be used to quickly integrate a questionnaire, survey or contact form into a WordPress site.
 
-### <span id="h.7klo9ndx6nme">Описание</span>
+The builder gives you the ability to create and customize forms and quizzes. It includes:
 
-
-Наш конструктор позволяет создавать интерактивные формы и опросы и предлагает быструю и легкую вставку на сайт с помощью готового кода, не требуя навыков программирования. С его помощью можно легко собирать и анализировать информацию, взаимодействовать с аудиторией и управлять данными. Плагин позволяет получить доступ и разместить на Wordpress формы обратной связи и квизы, созданные в Qform. С его помощью можно быстро интегрировать анкету, опрос или контактную форму на сайт WordPress.
-
-
-<b>Конструктор</b>  дает возможность создавать и настраивать формы и квизы. Он включает:
-
-
- - Drag-n-drop, чтобы добавлять и перемещать поля.
- - Разнообразие типов полей: текстовые, числовые, выбор даты и времени, выпадающие списки.
- - Настройку полей с возможностью изменять заголовки, комментарии, плейсхолдеры и маски заполнения.
- - Предварительный просмотр, чтобы убедиться в корректности строения форм обратной связи и квизов перед размещением на сайт Wordpress, Bitrix, Joomla или любой другой.
+ - Drag-n-drop to add and move fields.
+ - A variety of field types: text, numeric, date and time selections, drop-down lists.
+ - Customization of fields with the ability to change titles, comments, placeholders and fill masks.
+ - Preview to make sure that feedback forms and quizzes are built correctly before placing them on Wordpress, Bitrix, Joomla or any other website.
  - Прикрепление видеовиджетов к форме, каждому шагу квиза, а также после отправки.
  - Разделение на колонки, регулирование ширины и перемещение разделов.
  - Добавление изображений к полям выбора или разделам квиза.
  - Настройку логики переходов между шагами квиза в зависимости от ответов.
- - Быструю и легкую вставку на сайт с помощью готового кода без навыков программирования.
+ - Quick and easy insertion into the site using ready-made code without programming skills.
 
+The forms created with the form builder work on Wordpress and any other sites.
 
-Созданные с помощью конструктора формы хорошо работают на сайтах Wordpress, Bitrix, Joomla и других CMS.
+### Design
+Customize the appearance of the form and the design of various elements such as buttons, text, fields. Allows you to:
 
+ - Select design themes, rounding and field sizes.
+ - Change the colors of buttons, header, placeholder, notifications, select font and text size.
+ - Add frames around elements and set the background image.
 
-<b>Дизайн.</b>  Настройка внешнего вида формы и оформление различных элементов, таких как кнопки, текст, поля. Позволяет:
+For those who understand CSS, there is an option to disable the built-in design and prescribe your own styles. This gives you full control over the appearance and allows you to style the quiz, questionnaire or contact form to match the design of your WordPress site.
 
+### Proprietary CRM
+A place to collect, store and manage requests. Provides features such as:
+- Tracking milestones through statuses, keeping you up to date on the current status of each request
+-  Sorting requests using filters.
+- Commenting and deleting requests to improve communication within the team and not to store unnecessary data.
 
- - Выбирать темы оформления, скругление и размеры полей.
- - Менять цвета кнопок, заголовка, плейсхолдера, уведомлений, выбирать шрифт и размер текста.
- - Добавлять рамки вокруг элементов и задавать фоновое изображение.
+### Creating forms without a website
+Qform.link internal service allows you to create and use forms and quizzes without your own website. You can share them via a direct link or QR code.
 
+### Integration with external services
+Interaction with Bitrix, Sendpulse, AmoCRM allows you to automatically transfer data to them and generate a transaction card. Integration with SigmaSms and email service allows you to use the collected database of phone numbers and email addresses for mailings.
 
-Для тех, кто разбирается в CSS, есть возможность отключить встроенное оформление и прописать собственные стили. Это дает полный контроль над внешним видом и позволяет стилизовать викторину, анкету или контактную форму под дизайн сайта на WordPress.
+### Groups and access control
+Allow you to control and customize participant access to spaces and forms.Group owner and administrators set restrictions for participants based on their role. Они могут быть установлены на уровне просмотра, редактирования, удаления данных. Есть возможность добавлять пользователей и устанавливать роли без привязки к группе, если необходимо открыть доступ временно.
 
+### Notifications
+You can customize the message body and receive it by email, SMS or messengers. It is possible to customize the delivery event: instantly at each new request, or until the request is accepted for processing.
 
-<b>Собственная CRM.</b>  Место сбора, хранения и управления заявками. Дает такие возможности, как:
+### API and Webhooks
+The API helps you customize QForm's data exchange with other services that are not available in off-the-shelf solutions. You can access data about applications, forms, and spaces. Webhooks provide an instant notification mechanism for form submissions. This allows you to customize feedback and respond to events in real time.
 
+### Anti-spam
+Provides security and data protection from spam and bots. There are two versions of captcha to connect. One is a graphical or text task. The other is a background check without user participation.
 
- - Отслеживание этапов работы через статусы, что позволяет быть в курсе текущего состояния каждой заявки.
- - Сортировка заявок с помощью фильтров.
- - Комментирование и удаление заявок, чтобы улучшить коммуникацию внутри команды и не хранить лишние данные.
+### Analytics Systems
+Allow you to connect integration with Yandex.Metrics, Google Analytics and VK Pixel to track the number of submitted forms from Wordpress or other CMS, as well as conversion rates, traffic sources.
 
+### Analytics
+Gives you the ability to get detailed information about form performance:
+ - Information on how many times it has been displayed in front of users.
+ - Information about submissions and conversions. The total number of submissions and the percentage of users who successfully completed and submitted the form is displayed.
+ - Average response time.
+ - Response dynamics in graphs helps you visually track how user responses are distributed.
 
-<b>Создание форм без сайта.</b>  Внутренний сервис Qform.link дает возможность создавать и использовать формы и квизы без собственного сайта. Поделиться ими можно по прямой ссылке или QR-коду.
+### JavaScript Events
+Allows you to set and customize the actions that will be performed after a successful send. You can redirect users to another page or site, display a pop-up window, or show a thank you message.
 
-
-<b>Интеграция с внешними сервисами.</b>  Взаимодействие с Bitrix, Sendpulse, AmoCRM позволяет автоматически передавать в них данные и формировать карточку сделки. А интеграция с SigmaSms и почтовым сервисом дает возможность использовать собранную базу телефонов и email-адресов для рассылок.
-
-
-<b>Группы и управление доступом</b>  позволяют контролировать и настраивать доступ участников к пространствам и формам.Владелец и администраторы группы устанавливают ограничения для участников в зависимости от их роли. Они могут быть установлены на уровне просмотра, редактирования, удаления данных. Есть возможность добавлять пользователей и устанавливать роли без привязки к группе, если необходимо открыть доступ временно.
-
-
-<b>Уведомления.</b>  Можно настраивать тело сообщения и получать его на электронную почту, по SMS или в мессенджеры. Есть возможность настроить событие доставки: мгновенно при каждой новой заявке, либо пока заявка не принята в обработку.
-
-
-<b>API и вебхуки.</b>  API помогает настроить обмен данными QForm с другими сервисами, которых нет среди готовых решений. Можно получить доступ к данным о заявках, формах и пространствах. Вебхуки обеспечивают механизм мгновенных уведомлений об отправке формы. Это позволяет настроить обратную связь и реагировать на события в реальном времени.
-
-
-<b>Антиспам</b>  обеспечивает безопасность и защиту данных от спама и ботов. Для подключения есть две версии капчи. Одна – графическая или текстовая задача. Другая – фоновая проверка без участия пользователя.
-
-
-<b>Системы аналитики</b>  позволяют подключить интеграцию с Яндекс.Метрикой, Google Analytics и VK Pixel, чтобы отслеживать количество отправленных форм с Wordpress или другой CMS, а также конверсионные показатели, источники трафика.
-
-
-<b>Аналитика</b>  дает возможность получать подробную информацию о производительности форм:
-
-
- - Информацию о том, сколько раз она была отображена перед пользователями.
- - Информацию об отправках и конверсии. Отображается общее количество отправок и процент пользователей, которые успешно заполнили и отправили форму.
- - Среднее время ответа.
- - Динамика ответов в графиках помогает визуально отслеживать, как распределились ответы пользователей.
-
-
-<b>Интеграция с ОРД</b>  обеспечивает эффективное управление и мониторинг рекламы. Включает в себя:
-
-
- - Автоматическую маркировку баннеров. Для каждого креатива создается маркерный код, который вставляется в код баннера. Она включает в себя информацию о компании и уникальный идентификационный номер ЕРИД.
- - Отправку статистики показов. Передача информации о показах креативов в личный кабинет ОРД.
-
-
-<b>JavaScript-события</b>  дают возможность задавать и настраивать действия, которые будут выполняться после успешной отправки. Можно перенаправлять пользователей на другую страницу или сайт, отображать всплывающее окно, либо показать сообщение с благодарностью.
-
-### <span id="h.p0sw4xcl50i3">Установка</span>
-
-
- 1. Установите и активируйте плагин, найдя его через меню «Плагины» в WordPress.
- 2. В настройках плагина вставьте код токена, полученный в QForm при подключении интеграции. (см. инструкцию <a href='https://help.qform.io/ru/connecting_wordpress/'>Подключение Wordpress</a>)
- 3. Перейдите на страницу плагина «Шорткод формы», в выпадающем списке выберите форму и нажмите <b>Создать шорткод</b> .
- 4. Откройте новую или существующую страницу в режиме редактирования.
- 5. В панели инструментов Wordpress добавьте блок «Шорткод», вставьте созданный шорткод формы и нажмите <b>Опубликовать</b> .
- 6. Меняйте дизайн, структуру и настройки полей – это сразу применится к контактным формам и квизам, размещенным на «вордпресс».
+## Installation
+- Install and activate the plugin by finding it through the "Plugins" menu in WordPress.
+- In the plugin settings, paste the token code received in QForm when connecting the integration. (See the instructions at https://help.qform.io/ru/connecting_wordpress/ Connecting Wordpress)
+- Go to the "Form Shortcode" plugin page, select a form from the dropdown list and click Create Shortcode.
+- Open a new or existing page in edit mode.
+- In the Wordpress toolbar, add a "Shortcode" block, paste the created form shortcode and click Publish.
+- Change the design, structure and field settings - this will immediately apply to contact forms and quizzes hosted on wordpress.
 
 == Changelog ==
 Init plugin 1.0.0
